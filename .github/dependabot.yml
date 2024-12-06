@@ -1,5 +1,4 @@
 version: 2
-enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "dotnet-sdk"
     directory: "/"
@@ -9,3 +8,4 @@ updates:
       - dependency-name: "*"
         update-types:
           - version-update:semver-major
+          - version-update:semver-minor
