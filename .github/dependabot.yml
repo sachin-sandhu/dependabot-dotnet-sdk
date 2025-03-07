@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "dotnet-sdk"
     directory: "/"
     schedule:
-      interval: "cron"
+      interval: "cronjob"
     ignore:
       - dependency-name: "*"
         update-types:
