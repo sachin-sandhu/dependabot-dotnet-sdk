@@ -5,4 +5,14 @@ updates:
     directory: "/"
     schedule:
       interval: "cron"
-      cronjob: "@daily"
+      cronjob: "0 16 * * *"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
+          - version-update:semver-minor
+  - package-ecosystem: "dotnet-sdk"
+    directory: "/test"
+    schedule:
+      interval: "daily"
+      time: "17:00"
