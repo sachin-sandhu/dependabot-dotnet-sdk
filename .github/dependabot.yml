@@ -15,4 +15,4 @@ updates:
     directory: "/test"
     schedule:
       interval: "daily"
-      time: "17:00"
+      time: "16:00"
