@@ -1,5 +1,5 @@
 version: 2
-enable-beta-ecosystems: false
+enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "dotnet-sdk"
     directory: "/"
