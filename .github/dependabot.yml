@@ -11,3 +11,8 @@ updates:
         update-types:
           - version-update:semver-major
           - version-update:semver-minor
+  - package-ecosystem: "docker"
+    directory: "/test"
+    schedule:
+      interval: "daily"
+      time: "17:00"
