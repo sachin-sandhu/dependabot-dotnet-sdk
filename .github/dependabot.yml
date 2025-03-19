@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "cron"
-      cronjob: "5 4 * * *"
+      cronjob: "5 4 * * error"
     ignore:
       - dependency-name: "*"
         update-types:
